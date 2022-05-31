@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// SETTINGS
+// -----------------------------------------------------------------------------
+
+// ------------------------
+// Base
+// ------------------------
+
+// Media Queries
+$breakpoints: (
+  'wide':       (max-width: 1400px),
+  'min-wide':   (min-width: 1400px),
+  'desk':       (max-width: 1200px),
+  'min-desk':   (min-width: 1200px),
+  'laptop':     (max-width: 1024px),
+  'min-laptop': (min-width: 1024px),
+  'tablet':     (max-width: 768px),
+  'min-tablet': (min-width: 768px),
+  'mobile':     (max-width: 480px),
+  'min-mobile': (min-width: 480px),
+) !default;
+
+
+// ------------------------
+// Colours
+// ------------------------
+
+// Brand
+$brand-color--one: #00a79d;
+$brand-color--two: #ec018c;
+
+// Generic
+$black: #000;
+$white: #fff;
+$grey-dark: #5c5b5c;
+$grey-light: #9b9b9b;
+$grey-ultra-light: #e6e6e6;
+
+
+// ------------------------
+// Typography
+// ------------------------
+
+// Font weights
+$font-weight--bold: 700;
